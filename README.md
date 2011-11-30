@@ -17,12 +17,13 @@ Usage
 
 ### Examples
 
-Encode an animated GIF image, repeat the animation 5 times, force 16x16 size.		
-	$ 8cic_encode.py -i nyancat.gif -o nyancat.dat -r 5 -W 16 -H 16
+Encode an animated GIF image, repeat the animation 5 times, force 16x16 size.       
+
+    $ 8cic_encode.py -i nyancat.gif -o nyancat.dat -r 5 -W 16 -H 16
 
 Encode a series of PNG files named nyancat_0001.png through nyancat_0200.png, force 16x16 size, repeat 10 times, with an inter-frame delay of 24.
-	$ 8cic_encode.py -i nyancat_*.png -o nyancat.dat -r 10 -d 24 -W 16 -H 16
 
+    $ 8cic_encode.py -i nyancat_*.png -o nyancat.dat -r 10 -d 24 -W 16 -H 16
 
 License
 -------
